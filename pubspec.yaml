@@ -24,6 +24,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  like_button: ^2.0.4
+  comment_box: ^0.0.17
   flutter_hooks: ^0.17.0
   google_fonts: ^2.1.0
   hooks_riverpod: ^0.14.0+4

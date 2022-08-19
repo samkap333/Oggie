@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Face Swap',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
       ),
       home: MyHomePage(),
     );
@@ -27,6 +27,10 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        title: Center(
+          child: Text('Oggie',
+              style: TextStyle(color: Color.fromARGB(255, 238, 234, 231))),
+        ),
         actions: [IconButton(onPressed: () => {}, icon: Icon(Icons.settings))],
       ),
       body: Post(),
